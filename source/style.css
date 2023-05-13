@@ -1,12 +1,12 @@
 body {
   max-width: 100%;
+  background: #f8f4fd;
 }
 
 .intro {
   text-align: center;
   margin-top: 200px;
   margin-bottom: 200px;
-  background: lightgray;
 }
 
 h1 {
