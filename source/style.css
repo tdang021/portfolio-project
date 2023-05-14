@@ -1,12 +1,13 @@
-body {
-  max-width: 100%;
-  background: #f8f4fd;
+:root {
+  --brand-color: #5844ff;
 }
 
 .intro {
+  background: #f8f4fd;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  max-width: 100%;
 }
 
 h1 {
@@ -18,8 +19,21 @@ p.title {
   font-family: "poppins";
 }
 
+h2 {
+  margin-top: 80px;
+  font-size: 64px;
+  font-family: "poppins";
+}
+
 h3 {
   font-size: 36px;
+}
+
+p {
+  font-size: 16px;
+  font-family: poppins;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 p.title {
@@ -28,4 +42,31 @@ p.title {
 
 .start-button {
   margin-top: 18px;
+}
+
+.featured {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.start-button {
+  font-size: 15px;
+  padding: 12px 18px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid var(--brand-color);
+  background: var(--brand-color);
+  margin-top: 10px;
+}
+
+.project-button {
+  font-size: 15px;
+  padding: 12px 18px;
+  border-radius: 5px;
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  background: transparent;
+  margin-top: 10px;
+  margin-bottom: 80px;
 }
