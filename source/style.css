@@ -72,12 +72,13 @@ p.title {
 }
 
 @media (max-width: 700px) {
-  img {
+  .index-img {
     display: none;
   }
   h1 {
     font-size: 80px;
     padding: 0px 10px;
+    text-align: center;
   }
   h2 {
     font-size: 48px;
@@ -95,4 +96,22 @@ p.title {
   .project-button {
     margin-bottom: 20px;
   }
+  .about-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.about-body {
+  margin-top: 100px;
+}
+.about-intro {
+  font-size: 64px;
+}
+.about-summary {
+  font-size: 18px;
+  margin-top: 40px;
+}
+.about-img {
+  border-radius: 10px;
 }
