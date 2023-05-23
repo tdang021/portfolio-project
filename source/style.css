@@ -102,10 +102,10 @@ p.title {
   }
 }
 
-.about-body {
+.container-body {
   margin-top: 100px;
 }
-.about-intro {
+.header {
   font-size: 64px;
 }
 .about-summary {
@@ -114,4 +114,8 @@ p.title {
 }
 .about-img {
   border-radius: 10px;
+}
+
+.title {
+  padding: 0 100px 0 50px;
 }
