@@ -117,5 +117,11 @@ p.title {
 }
 
 .title {
-  padding: 0 100px 0 50px;
+  padding: 0 100px 50px 100px;
+  margin-right: 100px;
+}
+
+.label {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
