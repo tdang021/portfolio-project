@@ -125,3 +125,11 @@ p.title {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+
+.contact {
+  font-size: 28px;
+}
+.paragraph-body {
+  margin-left: 150px;
+  margin-top: 160px;
+}
