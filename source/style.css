@@ -2,6 +2,10 @@
   --brand-color: #5844ff;
 }
 
+.background-body {
+  background: #f8f4fd;
+}
+
 .intro {
   background: #f8f4fd;
   text-align: center;
