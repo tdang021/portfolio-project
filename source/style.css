@@ -1,5 +1,5 @@
 :root {
-  --brand-color: #5844ff;
+  --brand-color: #6c63ff;
 }
 
 .background-body {
@@ -31,6 +31,17 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 40px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+}
+
+nav a:hover {
+  color: var(--brand-color);
+  transition: all 100ms ease-in-out;
 }
 
 h1 {
@@ -141,7 +152,6 @@ p.title {
 
 .title {
   padding: 0 100px 50px 100px;
-  margin-right: 100px;
 }
 
 .label {
