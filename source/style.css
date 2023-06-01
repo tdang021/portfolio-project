@@ -14,8 +14,8 @@
   max-width: 100%;
 }
 
-.logo {
-  max-width: 150px;
+nav img {
+  max-height: 40px;
 }
 
 nav {
