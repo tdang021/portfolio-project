@@ -1,17 +1,22 @@
 :root {
   --brand-color: #6c63ff;
+  --brand-background: #f8f4fd;
 }
 
 .background-body {
-  background: #f8f4fd;
+  background: var(--brand-background);
 }
 
 .intro {
-  background: #f8f4fd;
+  background: var(--brand-background);
   text-align: center;
   padding-top: 150px;
   padding-bottom: 150px;
   max-width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
 
 nav img {
@@ -105,37 +110,6 @@ p.title {
   margin-bottom: 80px;
 }
 
-@media (max-width: 700px) {
-  .index-img {
-    display: none;
-  }
-  h1 {
-    font-size: 80px;
-    padding: 0px 10px;
-    text-align: center;
-  }
-  h2 {
-    font-size: 48px;
-    text-align: center;
-  }
-  p {
-    font-size: 14px;
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-  button {
-    display: block;
-    margin: 0 auto;
-  }
-  .project-button {
-    margin-bottom: 20px;
-  }
-  .about-img {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-}
-
 .container-body {
   margin-top: 100px;
 }
@@ -165,4 +139,71 @@ p.title {
 .paragraph-body {
   margin-left: 150px;
   margin-top: 160px;
+}
+
+.footer-contact-box {
+  background: var(--brand-background);
+}
+
+footer h2 {
+  font-family: "playfair display";
+  margin-left: 100px;
+}
+
+footer p {
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+.footer-button {
+  margin-top: 100px;
+}
+
+.footer-email {
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 700px) {
+  .index-img {
+    display: none;
+  }
+  h1 {
+    font-size: 80px;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  h2 {
+    font-size: 44px;
+    text-align: center;
+  }
+  p {
+    font-size: 14px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  a {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+  }
+
+  .footer-email {
+    margin-top: 20px;
+  }
+
+  .project-button {
+    margin-bottom: 20px;
+  }
+  .about-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .featured {
+    font-size: 52px;
+    margin-bottom: 0;
+  }
 }
