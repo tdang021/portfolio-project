@@ -145,6 +145,10 @@ p.title {
   background: var(--brand-background);
 }
 
+footer {
+  margin-top: 40px;
+}
+
 footer h2 {
   font-family: "playfair display";
   padding-left: 100px;
@@ -168,16 +172,14 @@ footer .quote {
 }
 
 @media (max-width: 700px) {
-  .index-img {
-    display: none;
-  }
   h1 {
     font-size: 80px;
     padding: 0px 10px;
     text-align: center;
   }
   h2 {
-    font-size: 44px;
+    margin-top: 40px;
+    font-size: 40px;
     text-align: center;
   }
   p {
