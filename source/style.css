@@ -147,21 +147,24 @@ p.title {
 
 footer h2 {
   font-family: "playfair display";
-  margin-left: 100px;
+  padding-left: 100px;
+  margin-top: 30px;
 }
 
-footer p {
+footer .quote {
   font-size: 18px;
-  margin-left: 100px;
+  padding-left: 100px;
 }
 
 .footer-button {
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .footer-email {
-  display: block;
-  margin: 0 auto;
+  color: black;
+}
+.icons {
+  margin-top: 16px;
 }
 
 @media (max-width: 700px) {
@@ -189,9 +192,14 @@ footer p {
     max-width: 50%;
     text-align: center;
   }
+  footer h2 {
+    padding-left: 0;
+    text-align: center;
+  }
 
-  .footer-email {
-    margin-top: 20px;
+  footer .quote {
+    padding-left: 10px;
+    text-align: center;
   }
 
   .project-button {
@@ -205,5 +213,15 @@ footer p {
   .featured {
     font-size: 52px;
     margin-bottom: 0;
+  }
+  .footer-email {
+    margin-top: 10px;
+  }
+  .footer-button {
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .icons {
+    margin-top: 10px;
   }
 }
